@@ -3,29 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang cá nhân của Tôi</title>
+    <title>Your Name | Portfolio</title>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>My Portfolio</h1>
-        </nav>
-    </header>
 
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">PORTFOLIO.</div>
+        <div class="nav-links">
+            <a href="#about">Về tôi</a>
+            <a href="#projects">Dự án</a>
+            <a href="#contact">Liên hệ</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
     <section class="hero">
-        <img src="https://via.placeholder.com/150" alt="Avatar" class="avatar">
-        <h2>Xin chào, mình là [Tên của bạn]</h2>
-        <p>Sinh viên ngành Công nghệ thông tin - PTIT</p>
+        <div class="hero-content">
+            <p class="greeting">Xin chào, tôi là</p>
+            <h1>NGUYỄN VĂN A</h1>
+            <p class="role">UI/UX Designer & Web Developer</p>
+            <p class="description">Tôi tạo ra các sản phẩm kỹ thuật số tinh tế, tập trung vào trải nghiệm người dùng và sự đơn giản.</p>
+            <a href="#contact" class="btn">Bắt đầu làm việc</a>
+        </div>
     </section>
 
-    <section class="about">
-        <h3>Giới thiệu bản thân</h3>
-        <p>Đây là nội dung giới thiệu về sở thích, đam mê và định hướng nghề nghiệp của bạn.</p>
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">Giới thiệu</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Tôi là một sinh viên năm 3 chuyên ngành CNTT tại PTIT. Với niềm đam mê thiết kế giao diện, tôi luôn cố gắng kết hợp giữa thẩm mỹ và tính ứng dụng trong từng dòng code.</p>
+                <div class="skills">
+                    <span class="skill-tag">HTML5/CSS3</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Responsive Design</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>Liên hệ: email@example.com | GitHub: github.com/username</p>
+    <!-- Projects Section (Placeholder) -->
+    <section id="projects" class="container">
+        <h2 class="section-title">Dự án nổi bật</h2>
+        <div class="project-card">
+            <div class="project-info">
+                <h3>01. E-Commerce Concept</h3>
+                <p>Thiết kế giao diện tối giản cho cửa hàng thời trang.</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-info">
+                <h3>02. Personal Blog Site</h3>
+                <p>Nền tảng viết lách tập trung vào trải nghiệm đọc.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title">Kết nối với tôi</h2>
+            <p>Bạn có dự án thú vị? Hãy cùng thảo luận nhé!</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="mailto:email@example.com">Email</a>
+            </div>
+            <p class="copyright">© 2024 Design by YourName</p>
+        </div>
     </footer>
+
 </body>
 </html>
