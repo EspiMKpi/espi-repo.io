@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; line-height: 1.6; text-align: center; margin: 0; padding: 0; background: #f4f4f4; }
+header { background: #333; color: #fff; padding: 1rem 0; }
+.hero { padding: 50px 20px; background: white; }
+.avatar { border-radius: 50%; width: 150px; height: 150px; border: 5px solid #333; }
+.about { padding: 20px; max-width: 800px; margin: auto; }
+footer { background: #333; color: white; padding: 10px 0; position: fixed; bottom: 0; width: 100%; }
