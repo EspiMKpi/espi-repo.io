@@ -1,81 +1,95 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <!-- Google Fonts: Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Nguyen Dai Dung | Software Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
     <nav>
-        <div class="logo">PORTFOLIO.</div>
-        <div class="nav-links">
-            <a href="#about">Về tôi</a>
-            <a href="#projects">Dự án</a>
-            <a href="#contact">Liên hệ</a>
+        <div class="container nav-content">
+            <div class="brand">DUNG.SE</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#expertise">Expertise</a>
+                <a href="#projects">Work</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <p class="greeting">Xin chào, tôi là</p>
-            <h1>NGUYỄN VĂN A</h1>
-            <p class="role">UI/UX Designer & Web Developer</p>
-            <p class="description">Tôi tạo ra các sản phẩm kỹ thuật số tinh tế, tập trung vào trải nghiệm người dùng và sự đơn giản.</p>
-            <a href="#contact" class="btn">Bắt đầu làm việc</a>
+    <header class="hero">
+        <div class="container">
+            <p class="label">Candidate: Software Engineer</p>
+            <h1>NGUYEN DAI DUNG</h1>
+            <p class="subtitle">3rd Year Student • Software Engineering & Web Development</p>
+            <div class="cta-area">
+                <a href="#projects" class="btn-main">View Projects</a>
+            </div>
         </div>
-    </section>
+    </header>
 
-    <!-- About Section -->
-    <section id="about" class="container">
-        <h2 class="section-title">Giới thiệu</h2>
-        <div class="about-grid">
-            <div class="about-text">
-                <p>Tôi là một sinh viên năm 3 chuyên ngành CNTT tại PTIT. Với niềm đam mê thiết kế giao diện, tôi luôn cố gắng kết hợp giữa thẩm mỹ và tính ứng dụng trong từng dòng code.</p>
-                <div class="skills">
-                    <span class="skill-tag">HTML5/CSS3</span>
-                    <span class="skill-tag">Figma</span>
-                    <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">Responsive Design</span>
+    <main class="container">
+        <section id="about" class="section">
+            <h2 class="section-title">Profile</h2>
+            <div class="content-block">
+                <p>Third-year Software Engineering student focused on building robust web architectures and optimized digital solutions. Committed to clean code principles and efficient problem-solving within the modern web ecosystem.</p>
+            </div>
+        </section>
+
+        <section id="expertise" class="section">
+            <h2 class="section-title">Expertise</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Engineering</h3>
+                    <p>Algorithm analysis, Object-Oriented Programming (OOP), and Software Development Life Cycle (SDLC).</p>
+                </div>
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Front-end architecture utilizing HTML5, CSS3 (SCSS), and JavaScript ES6+.</p>
+                </div>
+                <div class="card">
+                    <h3>Design & Tools</h3>
+                    <p>Interface prototyping via Figma. Version control and deployment management through Git/GitHub.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section (Placeholder) -->
-    <section id="projects" class="container">
-        <h2 class="section-title">Dự án nổi bật</h2>
-        <div class="project-card">
-            <div class="project-info">
-                <h3>01. E-Commerce Concept</h3>
-                <p>Thiết kế giao diện tối giản cho cửa hàng thời trang.</p>
+        <section id="projects" class="section">
+            <h2 class="section-title">Selected Works</h2>
+            <div class="project-item">
+                <div class="p-header">
+                    <h3>Personal Portfolio</h3>
+                    <span class="p-year">2024</span>
+                </div>
+                <p>Minimalist web identity focused on professional presence and performance.</p>
+                <div class="tags">HTML / CSS / GitHub Pages</div>
             </div>
-        </div>
-        <div class="project-card">
-            <div class="project-info">
-                <h3>02. Personal Blog Site</h3>
-                <p>Nền tảng viết lách tập trung vào trải nghiệm đọc.</p>
+            <div class="project-item">
+                <div class="p-header">
+                    <h3>Academic Project [Placeholder]</h3>
+                    <span class="p-year">2023</span>
+                </div>
+                <p>Detailed description of software engineering project or university coursework.</p>
+                <div class="tags">Software Engineering / Java / SQL</div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Contact Section -->
     <footer id="contact">
         <div class="container">
-            <h2 class="section-title">Kết nối với tôi</h2>
-            <p>Bạn có dự án thú vị? Hãy cùng thảo luận nhé!</p>
-            <div class="social-links">
-                <a href="#">Facebook</a>
-                <a href="#">GitHub</a>
-                <a href="#">LinkedIn</a>
+            <h2 class="section-title">Contact</h2>
+            <div class="footer-links">
                 <a href="mailto:email@example.com">Email</a>
+                <a href="https://github.com/">GitHub</a>
+                <a href="#">LinkedIn</a>
             </div>
-            <p class="copyright">© 2024 Design by YourName</p>
+            <p class="copyright">© 2024 Nguyen Dai Dung. All rights reserved.</p>
         </div>
     </footer>
 
